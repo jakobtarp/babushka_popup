@@ -85,6 +85,11 @@ p {
 
 h2 {
   font-family: "Cabin Condensed", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Cabin Condensed", sans-serif;
 }
 
 /* Popup */
@@ -127,6 +132,8 @@ footer {
   margin-bottom: 30px;
   width: 100%;
   text-align: center;
+}
 
-  font-family: "Cabin Condensed", sans-serif;
+footer img {
+  width: 20%;
 }
