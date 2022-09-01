@@ -1,0 +1,132 @@
+:root {
+  --primary-color: #f15a24;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1em;
+  justify-content: center;
+}
+
+.valgt {
+  color: var(--primary-color);
+}
+
+#start {
+  text-align: center;
+}
+
+nav {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Cabin Condensed", sans-serif;
+}
+
+/* Button */
+
+#start button {
+  margin: 20px;
+}
+
+button {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Cabin Condensed", sans-serif;
+  margin: 2px;
+}
+
+article {
+  padding: 0.5em;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+#start .pris {
+  font-size: 25px;
+  font-weight: 800;
+}
+.babushka {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  height: 100px;
+  width: 100px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 0.5em;
+}
+
+/* Overskrifter */
+
+.overskrift {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Cabin Condensed", sans-serif;
+  font-size: 50px;
+}
+.h2overskrift {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+span {
+  color: var(--primary-color);
+}
+
+p {
+  font-family: "Cabin Condensed", sans-serif;
+}
+
+h2 {
+  font-family: "Cabin Condensed", sans-serif;
+}
+
+/* Popup */
+
+#popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000000aa;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+#popup article {
+  width: 40%;
+  background-color: white;
+  border: 8px solid;
+  border-color: var(--primary-color);
+}
+
+#popup .pris {
+  font-size: 40px;
+  text-align: center;
+}
+
+#popup .navn {
+  text-align: center;
+}
+#popup .langbeskrivelse {
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+
+  font-family: "Cabin Condensed", sans-serif;
+}
