@@ -2,6 +2,10 @@
   --primary-color: #f15a24;
 }
 
+body {
+  text-align: center;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -72,7 +76,7 @@ img {
 }
 .h2overskrift {
   text-align: center;
-  margin-bottom: 40px;
+  font-size: large;
 }
 
 span {
@@ -124,6 +128,12 @@ h3 {
 #popup .langbeskrivelse {
   text-align: center;
 }
+
+#popup button {
+  margin-bottom: 30px;
+}
+
+/* Hoover */
 
 /* Footer */
 
